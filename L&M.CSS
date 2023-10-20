@@ -1,0 +1,70 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Montserrat", sans-serif;
+  }
+  body {
+    padding: 30px;
+    background-color: gray;
+  }
+  .lm {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 50px;
+  }
+  h1 {
+    text-align: center;
+    margin-bottom: 70px;
+    font-size: 25px;
+  }
+  .smoking {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 250px;
+    height: 320px;
+  }
+  .smoking:hover button {
+    display: block;
+  }
+  button{
+    display: none;
+    background-color: rgb(248, 246, 245);
+    padding: 15px 20px;
+font-size: 25px;
+border: none;
+
+  }
+
+  button:hover{
+    background-color: black;
+    color: white;
+  }
+  .one{
+    background-image: url("https://th.bing.com/th/id/R.309ba706378d00dfade4460e0078f2a6?rik=1S0ITxk5KWn7sQ&pid=ImgRaw&r=0");
+background-size: cover;
+background-repeat: no-repeat;
+background-position: center;  
+}
+.two{
+    background-image: url("https://thumbs.dreamstime.com/b/human-skull-smoking-cigarette-world-no-tobacco-day-54137146.jpg");
+background-size: cover;
+background-repeat: no-repeat;
+background-position: center;
+}
+.three{
+    background-image: url("https://i.pinimg.com/originals/fb/84/d5/fb84d5d2121024ea5510ad848f550a73.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.four{
+    background-image: url("https://th.bing.com/th/id/R.992a332d43095c2ac4e3c0a478f1ccf6?rik=Whz1PEQRR0Oxpw&riu=http%3a%2f%2fthumb9.shutterstock.com%2fdisplay_pic_with_logo%2f507037%2f433684876%2fstock-photo-devil-cigarette-cartoon-mascot-character-welcoming-and-holding-a-trident-raster-illustration-433684876.jpg&ehk=XejGQKLw2WKq4frneHFmC%2fq36Zysx73JfLCqDJOTz5k%3d&risl=&pid=ImgRaw&r=0");
+background-size: cover;
+background-repeat: no-repeat;
+background-position: center;
+
+}
